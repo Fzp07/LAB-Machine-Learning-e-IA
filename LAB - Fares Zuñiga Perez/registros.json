@@ -1,0 +1,27 @@
+[
+    {
+        "usuario": "juanperez73",
+        "password": "20032011",
+        "rol": "user"
+    },
+    {
+        "usuario": "zu\u00f1iga perez",
+        "password": "zp2003",
+        "rol": "user"
+    },
+    {
+        "usuario": "Maria Olaya Porras",
+        "password": "mariop2000",
+        "rol": "user"
+    },
+    {
+        "usuario": "zp2003",
+        "password": "1234567",
+        "rol": "user"
+    },
+    {
+        "usuario": "Maria Angel Giraldo Garizabalo",
+        "password": "mariagiraldo",
+        "rol": "user"
+    }
+]

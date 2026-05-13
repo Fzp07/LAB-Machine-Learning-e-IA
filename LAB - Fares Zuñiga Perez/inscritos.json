@@ -1,0 +1,14 @@
+[
+    {
+        "nombre": "Jose Lazcano Perez",
+        "correo": "faresnezu15@gmail.com",
+        "telefono": "3148585913",
+        "estado": "Aceptado"
+    },
+    {
+        "nombre": "Maria Angel Giraldo Garizabalo",
+        "correo": "faresnezu15@gmail.com",
+        "telefono": "3002346513",
+        "estado": "Pendiente"
+    }
+]

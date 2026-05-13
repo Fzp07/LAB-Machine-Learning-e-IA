@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro - IA System</title>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+        .glass-card { max-width: 450px; width: 100%; margin: auto; }
+    </style>
+</head>
+<body>
+    <canvas id="neural-canvas"></canvas>
+
+    <main class="container">
+        <div class="glass-card">
+            <div class="glow-orb"></div>
+            <h1 class="glitch" data-text="Crear Cuenta">Crear Cuenta</h1>
+            <p class="subtitle">Nuevo Usuario <span class="cursor">_</span></p>
+
+            <form id="registro-app-form" class="ai-form">
+                <div class="input-group">
+                    <input type="text" id="nuevo-usuario" name="usuario" required placeholder=" ">
+                    <label for="nuevo-usuario">Elige un Usuario</label>
+                </div>
+                <div class="input-group">
+                    <input type="password" id="nueva-password" name="password" required placeholder=" ">
+                    <label for="nueva-password">Crea tu Contraseña</label>
+                </div>
+
+                <div class="status-bar">
+                    <div class="status-fill"></div>
+                </div>
+                <button type="submit" class="action-btn" id="registro-btn">Registrarse</button>
+            </form>
+            
+            <div style="margin-top: 1.5rem;">
+                <p style="color: var(--text-muted); font-size: 0.9rem;">
+                    ¿Ya tienes cuenta? <a href="login.html" style="color: var(--primary-glow); text-decoration: none;">Inicia sesión</a>
+                </p>
+            </div>
+            
+            <p id="form-msg" class="form-msg"></p>
+        </div>
+    </main>
+
+    <script src="registro.js"></script>
+</body>
+</html>
